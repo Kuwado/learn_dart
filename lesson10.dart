@@ -30,6 +30,7 @@ bool isPrime({required int n}) {
   return true;
 }
 
+// Tham so tuy chon
 void goOut(String name, String where, [String by = 'bus', int? long]) {
   var res = '$name go to $where by $by';
   if (long != null) {
